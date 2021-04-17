@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB 115 Final Project</title>
+	</head>
+	<body>
+		<script src = 'assets/js/resume.js'></script>
+		<h1><center>Build Your Resume</center></h1>
+		<form>
+			<strong>Enter your full name:<strong><br>
+			<input type="text" id = fullName size = "75"><br>
+
+			<br><strong>Enter your address:</strong><br>
+			<input type="text" id="address" name="address" size = "75"><br>
+
+			<br><strong>Enter your phone number:</strong><br>
+			<input type="text" id="phoneNum" size = "75"><br>
+
+			<br><strong>Enter your email address:</strong><br>
+			<input type="text"  id="email" size = "75"><br>
+
+			<br><strong>Enter your personal information:</strong><br>
+			<textarea id="personalString" rows = "10" cols = "77"></textarea><br>
+
+			<br><strong>Enter your career objectives:</strong><br>
+			<textarea id="careerObjectives" rows = "10" cols = "77"></textarea><br>
+
+			<br><strong>Enter your educational background:</strong><br>
+			<textarea id= "education" rows = "10" cols = "77"></textarea><br>
+
+			<br><br><strong>Recent Employment Dates 1</strong><br>
+			Start Date: <input type = "date" id="date1-1">
+			End Date: <input type = "date" id="date1-2"><br>
+
+			<strong>Recent Employment Details 1</strong><br>
+			<textarea id="details1" rows="10" cols="77"></textarea>
+
+			<br><br><strong>Recent Employment Dates 2</strong><br>
+			Start Date: <input type="date" id="date2-1">
+			End Date: <input type ="date" id ="date2-2"><br>
+
+			<strong>Recent Employment Details 2</strong><br>
+			<textarea id="details2" rows="10" cols="77"></textarea>
+
+			<br><br><strong>Recent Employment Dates 3</strong><br>
+			Start Date: <input type = "date" id="date3-1">
+			End Date: <input type = "date" id= "date3-2"><br>
+
+			<strong>Recent Employment Details 3</strong><br>
+			<textarea id="details3" rows="10" cols="77"></textarea><br>
+
+			<br><strong>References:<br></strong>
+			<textarea id="references" rows = "10" cols="77"></textarea><br>
+
+			<input type="button" id= "myButton" value = "Create My Resume" onclick="resumePop()" />
+            <input type="button" id= "myButton1" value = "Return Home" onclick="goBack()" />
+	</body>
+</html>
