@@ -21,11 +21,93 @@
     
                 <div class="slides">
                     <section>
-                        <h2>How to Make a Minecraft Mod using JAVA </h2>
+                        <h2>JAVA Variable Typing and setting up your IDE</h2>
+						<p>By Joseph Wireman</p>
                     </section>
-    
+
+
+					<section data-auto-animate data-auto-animate-unmatched="zoom">
+						<h3>JAVA - an Object Oriented Language</h3>
+						<p style="opacity: 0.2; margin-top: 50px;">Everything in Java is an object!</p>
+						<pre data-id="code"><code data-line-numbers class="hljs" data-trim>
+						
+						class HelloStrings {
+							public static void main(String[] args) {
+								String str0 = 1;               // Nope!
+								String str1 = "abc";           // GOOD!
+								String str2 = "123abc";	       // GREAT!
+								String str3 = "Hello World";   // Fantastic!
+								System.out.print("str3");
+							}
+						}
+						</code></pre>
+					</section>
+
+					<section data-auto-animate data-auto-animate-unmatched="fade">
+						<h3>JAVA - an Object Oriented Language</h3>
+						<p style="opacity: 0.2; margin-top: 50px;">Everything in Java is an object!</p>
+						<pre data-id="code"><code data-line-numbers class="hljs" data-trim>
+						class HelloStrings {
+							public static void main(String[] args) {
+								String str0 = 1;            	// Nope!
+								String str1 = "abc";        	// GOOD!
+								String str2 = "123abc";     	// GREAT!
+								String str3 = "Hello World";	// Fantastic!
+								System.out.print("str3");
+							}
+						} 
+						Output: Hello World
+						</code></pre>
+					</section>
+
+					<section data-auto-animate data-auto-animate-unmatched="fade">
+						<h3>JAVA - an Object Oriented Language</h3>
+						<p style="opacity: 0.2; margin-top: 50px;">Everything in Java is an object!    
+						<pre data-id="code"><code data-line-numbers class="hljs" data-trim>
+						//an int is a whole number with no quotations or decimals 
+						class HelloInts {
+							public static void main(String[] args) {
+								int num1 = "abc";  // Nope!
+								int num2 = 3.14;  // Close!
+								int num3 = "3";  // Closer!
+								int num4 = 3;      // GOOD!
+							}
+						}
+						</code></pre>
+					</section>
+					<section data-auto-animate data-auto-animate-unmatched="fade">
+						<h3>JAVA - an Object Oriented Language</h3>
+						<p style="opacity: 0.2; margin-top: 50px;">Everything in Java is an object!    
+						<pre data-id="code"><code data-line-numbers class="hljs" data-trim>
+						//a boolean is a value that holds the phrase True or False and 
+						//initializes to False
+						class HelloBoole {
+							public static void main(String[] args) {
+								boolean trueFalse1 = "True";  	// Nope!
+								boolean trueFalse2 = "False";  	// Nope!
+								boolean TrueFalse3 = True;    	// Good!
+								boolean TrueFalse4;    		// = False
+							}
+						}
+						</code></pre>
+					</section>
+					<section>
+						<h2>Setting up your IDE!</h2>
+					</section>
+					<section>
+						<h2>Stack Example</h2>
+
+						<div class="r-stack">
+							<p class="fragment fade-in-then-out">One</p>
+							<img src="https://placekitten.com/450/300" width="450" height="300" class="fragment">
+							<img src="https://placekitten.com/300/450" width="300" height="450" class="fragment">
+							<img src="https://placekitten.com/400/400" width="400" height="400" class="fragment">
+						</div>
+					</section>
+
+					
+
                 </div>
-    
             </div>
 
 		<script src="assets/js/reveal.js"></script>
